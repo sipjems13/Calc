@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Add Calculator</title>
+     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class = "container"> 
+        <center>
+
+    <h1>Calculator ni Josip</h1>
+    <input type="text" id="inDisplay" readonly />
+    <input type="text" id="outDisplay" readonly />
+    <div class = "buttons">
+    <button  onClick = "numValue('7')"> 7</button>
+    <button  onClick = "numValue('8')"> 8</button>
+    <button  onClick = "numValue('9')"> 9</button>
+    <button  onClick = "numValue('+')"> +</button>
+    <button  onClick = "numValue('4')"> 4</button>
+    <button  onClick = "numValue('5')"> 5</button>
+    <button  onClick = "numValue('6')"> 6</button>
+    <button  onClick = "numValue('-')"> -</button>
+    <button  onClick = "numValue('1')"> 1</button>
+    <button  onClick = "numValue('2')"> 2</button>
+    <button  onClick = "numValue('3')"> 3</button> 
+    <button  onClick = "numValue('*')"> *</button>
+    <button  onClick = "numValue('0')"> 0</button>
+    <button  onClick = "numValue('.')"> .</button>
+    <button  onClick = "calculate('=')"> =</button>
+    <button  onClick = "numValue('/')"> /</button>
+
+    </div>
+    <br>
+    <button onclick="clearTanan()">Clear</button>
+    </center>
+    </div>
+
+</body>
+</html>
